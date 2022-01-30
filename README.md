@@ -6,5 +6,5 @@
 
 ```shell
 # add to .zshenv
-alias testme='docker-compose run app sh -c "python manage.py test"'
+alias testme='docker-compose run app sh -c "python manage.py test && flake8"'
 ```
